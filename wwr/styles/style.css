@@ -1,0 +1,84 @@
+div {
+    max-width: 1600px
+}
+#content {
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+.home-title{
+    color: blue;
+}
+h4{
+    color: blue;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: rgb(34, 110, 209);
+    color: blue;
+}
+body {
+    background-color: bis;
+    color: blue;
+}
+header {
+    background-color: antiquewhite;
+    color: blue;
+}
+nav a:hover {
+    background-color: aqua;
+    color: blue;
+}
+.book, .join{
+    color: blue;
+    text-decoration: none;
+}
+.book, .join:hover {
+    background-color:white;
+    color: blue;
+}
+.msg h2{
+    color: blue;
+}
+.msg p{
+    color: blue;
+}
+.book:hover, .join:hover{
+    background-color: aqua;
+    color: blue;
+}
+.msg {
+    background-color: bisque;
+    color: blue;
+}
+footer {
+    background-color:bisque;
+    color: blue
+}
+footer p a {
+    text-decoration: none;
+    color:blue;
+}
+footer p a:hover {
+    text-decoration: none;
+    background-color: aqua;
+
+}
+#hero-img {
+    width: 100%;
+}
+.icon {
+    width: 80px;
+}
