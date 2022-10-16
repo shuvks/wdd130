@@ -1,16 +1,27 @@
+@import url("https://fonts.google.com/specimen/Abril+Fatface");
 div {
     max-width: 1600px
 }
 #content {
     margin: 0 auto;
 }
+#logo_link {
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title{
     color: blue;
+    font-size: 2em;
+    font-family: "abril Fatface", "Courier New", monospace;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 h4{
     color: blue;
@@ -32,6 +43,10 @@ main section {
 body {
     background-color: bis;
     color: blue;
+    font-family: specimen, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: antiquewhite;
@@ -44,6 +59,9 @@ nav a:hover {
 .book, .join{
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .book, .join:hover {
     background-color:white;
@@ -54,14 +72,19 @@ nav a:hover {
 }
 .msg p{
     color: blue;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .book:hover, .join:hover{
     background-color: aqua;
     color: blue;
+    border-radius: 5px;
 }
 .msg {
     background-color: bisque;
     color: blue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:bisque;
@@ -70,6 +93,8 @@ footer {
 footer p a {
     text-decoration: none;
     color:blue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p a:hover {
     text-decoration: none;
@@ -81,4 +106,17 @@ footer p a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
