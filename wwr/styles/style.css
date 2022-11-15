@@ -216,6 +216,9 @@ footer {
     color: white;
   } */
 
+.rivers_content {
+    background-color: skyblue;
+}
 .rivers-grid {
     text-align: center;
     display: grid;
