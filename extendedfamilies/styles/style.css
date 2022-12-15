@@ -169,7 +169,8 @@ form {
     padding: 1em;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 1em;
-    
+    border-color: white;
+    color: white;
   }
   
   ul {
@@ -243,15 +244,21 @@ form {
 
 #sign_in {
     padding: 30%;
+
+}
+#full_signin {
+  background-image:url('/extendedfamilies/images/Paerent-child.jpg')
 }
 .sign-in_title {
   text-align: center;
   padding: 20px;
+  color: white;
 }
 .create_account {
     padding: 50px;
-    font-weight: bolder;
+    font-weight:bolder;
     text-align: center;
+    color: white;
 }
 
 /* CSS FOR ABOUT US WEBPAGE */
